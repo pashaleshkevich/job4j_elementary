@@ -7,9 +7,4 @@ public class TriangleArea {
         double result = Math.sqrt(p * (p - a) * (p - b) * (p - c));
         return result;
     }
-
-    public static void main(String[] args) {
-        double result = TriangleArea.area(2, 2, 2);
-        System.out.println("area (2, 2, 2) = " + result);
-    }
 }
