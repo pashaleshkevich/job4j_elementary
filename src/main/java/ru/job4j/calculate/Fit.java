@@ -11,13 +11,4 @@ public class Fit {
         double result = (height - 110) * 1.15;
         return result;
     }
-
-    public static void main(String[] args) {
-        short heightMan = 187;
-        short heightWoman = 167;
-        double man = Fit.manWeight(heightMan);
-        double woman = Fit.manWeight(heightWoman);
-        System.out.println("Man 187 is " + man);
-        System.out.println("Woman 167 is " + woman);
-    }
 }
